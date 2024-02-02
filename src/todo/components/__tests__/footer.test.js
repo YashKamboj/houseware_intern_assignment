@@ -37,10 +37,7 @@ test("Clear completed button triggers action", () => {
 
   const clearCompletedButton = screen.getByTestId("clear-completed");
 
-  // Simulate a user click on the "Clear completed" button
   fireEvent.click(clearCompletedButton);
-
-  // Check if the expected action was dispatched
   expect(dispatch).toHaveBeenCalledWith({ type: REMOVE_COMPLETED_ITEMS });
 });
 
