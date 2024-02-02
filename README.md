@@ -1,8 +1,13 @@
 # Tests
 
-Included a suite of tests to ensure that it functions correctly and reliably. To run the tests, execute the following command:
+Included a suite of tests to ensure that it functions correctly and reliably.  <br />
 
-In the project directory, you can run:
+
+All the tests are placed inside src/__tests__ folder  <br />
+
+ To run the tests, execute the following command:  <br />
+ 
+In the project directory, you can run:  <br />
 
 ### `npm test`
 
